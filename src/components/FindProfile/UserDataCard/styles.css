@@ -1,0 +1,45 @@
+.user-data-card-container {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  background-color: #f5f5f5;
+  width: 1200px;
+  height: 340px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.user-data-card-container img {
+  max-width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.user-data-card-description {
+  margin-left: 20px;
+  border: 1px solid #d9d9d9;
+  width: 900px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.user-data-card-description h2 {
+  color: #1890ff;
+  padding: 10px 20px;
+}
+
+.user-data-card-description span {
+  font-weight: 700;
+  color: #737373;
+  font-style: normal;
+}
+
+.user-data-card-description p {
+  font-style: italic;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  margin: 5px 20px;
+  padding: 7px 10px;
+  font-size: 18px;
+  color: #737373;
+}
