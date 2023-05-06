@@ -1,0 +1,28 @@
+.find-Profile-container {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #e6f7ff;
+  width: 1200px;
+  height: 270px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.find-Profile-container h1 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.find-Profile-container input {
+  width: 300px;
+  height: 50px;
+  display: block;
+  border: 1px solid #d9d9d9;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 10px;
+}
