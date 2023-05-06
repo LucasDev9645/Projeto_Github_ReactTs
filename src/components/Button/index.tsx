@@ -1,13 +1,11 @@
-import React from "react";
-
 import "./styles.css";
 
-const Button = () => {
-  return (
-    <div>
-      <h1>Botão</h1>
-    </div>
-  );
+type Props = {
+  name: string;
+};
+
+const Button = ({ name }: Props) => {
+  return <button className="btn">{name}</button>;
 };
 
 export default Button;
