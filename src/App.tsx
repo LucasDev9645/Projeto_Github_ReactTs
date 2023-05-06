@@ -1,13 +1,17 @@
 import { useState } from "react";
 
+import Home from "./components/Home";
+import NavBar from "./components/Navbar";
+
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <>
-      <h1>Testando</h1>
+      <NavBar />
+      <Home />
     </>
   );
-}
+};
 
 export default App;
