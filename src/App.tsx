@@ -1,5 +1,6 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 import Home from "./components/Home";
-import NavBar from "./components/Navbar";
 import FindProfile from "./components/FindProfile";
 
 import "./App.css";
@@ -7,8 +8,12 @@ import "./App.css";
 const App = () => {
   return (
     <>
-      <NavBar />
-      <FindProfile />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<FindProfile />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 };
