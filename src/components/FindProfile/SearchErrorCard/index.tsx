@@ -1,11 +1,14 @@
-import React from "react";
+import imgError from "../../../assets/erro.png";
 
 import "./styles.css";
 
 const SearchErrorCard = () => {
   return (
-    <div>
-      <h1>cartão erro busca</h1>
+    <div className="container">
+      <div className="search-error-card-container">
+        <h1>Erro ao buscar usuário!</h1>
+        <img src={imgError} alt="erro" />
+      </div>
     </div>
   );
 };

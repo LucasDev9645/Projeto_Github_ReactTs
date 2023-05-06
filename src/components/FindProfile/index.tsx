@@ -1,5 +1,7 @@
 import Button from "../Button";
+import SearchErrorCard from "./SearchErrorCard";
 import UserDataCard from "./UserDataCard";
+
 import "./styles.css";
 
 const FindProfile = () => {
@@ -12,7 +14,7 @@ const FindProfile = () => {
           <Button name="Encontrar" />
         </form>
       </div>
-      <UserDataCard />
+      <SearchErrorCard />
     </>
   );
 };
