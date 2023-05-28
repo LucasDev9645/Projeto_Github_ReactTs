@@ -1,6 +1,6 @@
 # Projeto_Github_ReactTs
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LucasDev9645/clone_disneyplus/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/LucasDev9645/Projeto_Github_ReactTs/blob/main/LICENSE) 
 
 # Sobre o projeto
 
